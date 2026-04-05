@@ -9,11 +9,11 @@ const Navbar = () => {
              <h1 className="text-2xl font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">DigiTools</h1>
             </div> 
             <div className='flex gap-8 list-none text-[#101727] font-semibold '>
-              <li>Products</li>
-              <li>Features</li>
-              <li>Pricing</li>
-              <li>Testimonials</li>
-              <li>FAQ</li>
+              <li><a href="">Products</a></li>
+              <li><a href="">Features</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Testimonials</a></li>
+              <li><a href="">FAQ</a></li>
             </div>
             <div className='flex gap-4 items-center'>
               <img className='object-contain' src={cartImg} alt="" />
