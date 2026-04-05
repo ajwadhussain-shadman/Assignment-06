@@ -1,5 +1,5 @@
 import React from 'react';
-import cartImg from '../../assets/products/design-tool.png'
+import cartImg from '../../assets/products/shopping-cart.png'
 const Cart = ({cart,setCart}) => {
     
 
@@ -20,7 +20,7 @@ const Cart = ({cart,setCart}) => {
              </div>
              <div>
                 <h2 className='text-[#101727] font-semibold text-xl'>{product.name}</h2>
-                <p className='text-[#627382]'>${product.price}</p>
+                <p className='text-[#627382]'>$ {product.price}</p>
              </div>
             </div>
             <div>
@@ -30,7 +30,10 @@ const Cart = ({cart,setCart}) => {
                     )
                   })}
               {
-                isEmpty==0 && <p>Cart is Empty</p>
+                isEmpty==0 && <div className='flex flex-col gap-4 justify-center items-center mx-auto'>
+                    <img src={cartImg} className=' w-6' alt="" />
+                    <p className='text-xl font-semibold'> Your cart is Empty</p>
+                </div>
               }    
 
            
