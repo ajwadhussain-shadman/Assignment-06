@@ -8,6 +8,8 @@ import UserData from './Components/UserData/userData'
 import { ToastContainer, toast } from 'react-toastify';
 import GettingStarted from './Components/GettingStarted/GettingStarted'
 import Pricing from './Components/Pricing/Pricing'
+import Explore from './Components/Explore/Explore'
+import Footer from './Components/Footer/Footer'
 const fetchProductData = async () => {
   const res = await fetch("/data.json");
   return res.json();
@@ -28,6 +30,8 @@ function App() {
       </Suspense>
       <GettingStarted></GettingStarted>
       <Pricing></Pricing>
+      <Explore></Explore>
+      <Footer></Footer>
       <ToastContainer />
     </>
   )
