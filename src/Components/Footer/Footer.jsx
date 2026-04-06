@@ -47,9 +47,9 @@ const Footer = () => {
             </div>
             <div className='w-11/12 md:w-3/4 mx-auto text-white mt-[80px]'>
                   <hr className='opacity-10' />
-                  <div className='flex justify-between mt-[30px] text-[#FAFAFA]/50 text-sm'>
+                  <div className='md:flex justify-between mt-[30px] text-[#FAFAFA]/50 text-sm'>
                     <p>© 2026 Digitools. All rights reserved.</p>
-                    <div className=' flex justify-between gap-2 md:gap-4'>
+                    <div className=' flex justify-between mt-4 md:mt-0 gap-2 md:gap-4'>
                         <a href="">privacy Policy</a>
                         <a href="">Terms of Service</a>
                         <a href="">Cookies</a>

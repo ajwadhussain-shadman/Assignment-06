@@ -47,7 +47,7 @@ const Pricing = () => {
                 {/* 2nd card */}
 
                 <div className='p-6 border border-[#F2F2F2] space-y-6 w-[380px] rounded-2xl relative bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white'>
-                    <p className='badge text-[#BB4D00] bg-[#FEF3C6] absolute  -top-3 left-1/3 '>Most Popular</p>
+                    <p className='badge text-[#BB4D00] bg-[#FEF3C6] absolute  -top-3 left-[130px] md:left-1/3 '>Most Popular</p>
                     <div>
                         <h2 className='font-bold text-2xl '>Pro</h2>
                         <p className='mt-2 text-purple-100'>Best for professionals</p>
