@@ -31,7 +31,7 @@ const isTheir=cart.find(i=>i.id===product.id);
             <div className='space-y-4'>
                 <h2 className='text-[#101727] font-bold text-2xl'>{product.name}</h2>
                 <p className='text-[#627382] text-[16px] w-full'>{product.description}</p>
-                <h2><span className='text-[#101727] font-bold text-2xl'>${product.price}</span>/{product.period}</h2>
+                <h2><span className='text-[#101727] font-bold text-2xl'>${product.price}</span>/{product.period==="monthly" ?<span className='text-[#627382]'>Mo</span> : <span className='text-[#627382]  '>One-Time</span>}</h2>
                 <div>
                     {
                         product.features.map(ft => {
