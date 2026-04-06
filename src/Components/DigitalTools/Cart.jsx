@@ -1,7 +1,11 @@
 import React from 'react';
 import cartImg from '../../assets/products/shopping-cart.png'
 const Cart = ({cart,setCart}) => {
+    const totalPrice=cart.reduce((total,i)=>total+i.price,0);
     
+    const handleCheckOut=()=>{
+        setCart([]);
+    }
 
     const handleDelete=(product)=>{
        const newCart=cart.filter(i=>i.id!=product.id);
@@ -35,8 +39,15 @@ const Cart = ({cart,setCart}) => {
                     <p className='text-xl font-semibold'> Your cart is Empty</p>
                 </div>
               }    
-
-           
+           {
+            isEmpty!==0 && <div className='space-y-4'>
+                 <div className='flex justify-between items-center'>
+                <p className='text-[#627382]'>Total:</p>
+                <h3 className='font-bold text-2xl text-[#101727]'>${totalPrice}</h3>
+            </div>
+           <button onClick={handleCheckOut} className='w-full rounded-full text-center bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold btn'>Proceed to Checkout</button>
+            </div>
+           }
         </div>
     );
 };
