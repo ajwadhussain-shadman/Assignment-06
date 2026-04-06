@@ -88,5 +88,65 @@
       "Scheduler included",
       "Analytics dashboard"
     ]
+  },
+  {
+    "id": 7,
+    "name": "Video Editing Suite",
+    "description": "Edit and produce professional-quality videos with advanced tools and effects.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "image": "https://img.icons8.com/fluency/96/video-editing.png",
+    "features": [
+      "4K video support",
+      "100+ transitions",
+      "Audio editing tools"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Website Builder Pro",
+    "description": "Create stunning, responsive websites بسهولة without coding using drag-and-drop tools.",
+    "price": 99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "image": "https://img.icons8.com/fluency/96/web-design.png",
+    "features": [
+      "Drag & drop builder",
+      "SEO optimized",
+      "Free hosting included"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "SEO Optimization Toolkit",
+    "description": "Boost your website ranking with powerful SEO tools and analytics.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "image": "https://img.icons8.com/fluency/96/search.png",
+    "features": [
+      "Keyword research",
+      "Site audit",
+      "Rank tracking"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "UI/UX Design Kit",
+    "description": "Comprehensive design system with components, icons, and wireframe kits.",
+    "price": 45,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "image": "https://img.icons8.com/fluency/96/design.png",
+    "features": [
+      "1000+ UI components",
+      "Figma & Adobe XD support",
+      "Design system ready"
+    ]
   }
 ]

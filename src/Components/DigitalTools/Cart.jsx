@@ -1,13 +1,17 @@
 import React from 'react';
 import cartImg from '../../assets/products/shopping-cart.png'
+import { toast } from 'react-toastify';
 const Cart = ({cart,setCart}) => {
     const totalPrice=cart.reduce((total,i)=>total+i.price,0);
     
     const handleCheckOut=()=>{
+        toast("checked out");
         setCart([]);
+        
     }
 
     const handleDelete=(product)=>{
+         toast.success("product removed from cart");
        const newCart=cart.filter(i=>i.id!=product.id);
        setCart(newCart);
     }
