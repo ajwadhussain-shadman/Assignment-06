@@ -18,7 +18,7 @@ const Cart = ({cart,setCart}) => {
     const isEmpty=cart.length;
     return (
         <div className='md:w-3/4 mx-auto border border-[#F2F2F2] rounded-2xl p-10 mt-10 space-y-6'>
-           <h2 className='font-bold text-[#101727] text-2xl'>Your Cart</h2>
+           <h2 className='font-bold text-[#101727] text-lg md:text-2xl'>Your Cart</h2>
                   { cart.map(product=>{
                     return(
 <div className='flex justify-between items-center bg-[#F9FAFC] rounded-2xl p-3 md:p-5'>

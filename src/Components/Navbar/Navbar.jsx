@@ -10,7 +10,7 @@ const Navbar = ({ cart, setCart }) => {
   const [click,setClick]=useState(false);
   return (
     <div className={`border border-[#e3e8eb] border-x-0 ${click? "h-50": ""}`}>
-      <div className='w-3/4 mx-auto flex justify-between items-center py-4'>
+      <div className=' w-11/12 md:w-3/4 mx-auto flex justify-between items-center py-4'>
 
         <div className='flex gap-3 items-center'>
           <span onClick={()=>setClick(!click)} className='flex'>

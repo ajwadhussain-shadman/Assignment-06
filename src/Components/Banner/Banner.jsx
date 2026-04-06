@@ -4,7 +4,7 @@ import badgeImg from '../../assets/BannerImg/Group 5.png'
 import playbtnImg from '../../assets/BannerImg/Play.png'
 const Banner = () => {
     return (
-        <div className='w-3/4 mx-auto  md:flex  md:gap-15 justify-between items-center py-15'>
+        <div className='w-11/12 md:w-3/4 mx-auto  md:flex  md:gap-15 justify-between items-center py-15'>
             <div className='space-y-4'>
                 {/* badge */}
                 <div className='flex gap-1 bg-[#E1E7FF] rounded-full px-4 py-2 max-w-73.5'>

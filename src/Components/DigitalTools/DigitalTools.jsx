@@ -7,7 +7,7 @@ const DigitalTools = ({productDataPromise,cart,setCart}) => {
     const [tab,setTab]=useState("product");
 
     return (
-        <div className='w-3/4 mx-auto py-30'>
+        <div className=' w-11/12 md:w-3/4 mx-auto py-30'>
             <div className='text-center space-y-4'>
                 <h2 className='font-extrabold text-5xl'>Premium Digital Tools</h2>
                 <p className='text-[#627382] text-sm'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity. </p>
